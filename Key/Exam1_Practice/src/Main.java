@@ -3,6 +3,13 @@ import java.awt.*;
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println("12 / 3 + 5 + 3 * -2 = " + (12/3+5+3*-2));
+        System.out.println("1 + 1 + \"(1 + 1)\" + 1 + 1 = " + (1 + 1 + "(1 + 1)" + 1 + 1));
+        System.out.println("13 / 2 - 38 / 5 / 2.0 + (15 / 10.0) = " + (13 / 2 - 38 / 5 / 2.0 + (15 / 10.0)));
+        System.out.println("11 < 3 + 4 || !(5 / 2 == 2) = " + (11 < 3 + 4 || !(5 / 2 == 2)));
+        System.out.println("20 % 6 + 6 % 20 + 6 % 6 = " + (20 % 6 + 6 % 20 + 6 % 6));
+        System.out.println();
+
         testDigitsInARow(345696777);    // 3 digits in a row ("777")
         testDigitsInARow(388999566);
         testDigitsInARow(389999566);
